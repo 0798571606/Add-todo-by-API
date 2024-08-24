@@ -1,0 +1,23 @@
+body {
+  font-family: poppins;
+  padding-left: 1rem;
+  /* cursor: url('thumb-1920-480538.png'), auto; */
+}
+
+.done {
+  background: lightgray;
+}
+
+#todo-list {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#todo-list div {
+  border: 1px solid gray;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
